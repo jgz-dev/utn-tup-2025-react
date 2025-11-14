@@ -1,0 +1,399 @@
+[
+  {
+    "id": 1,
+    "titulo": "Tostada con Palta y Huevo",
+    "categoria": "Desayuno",
+    "dificultad": "Fácil",
+    "rating": 4.3,
+    "votes": 6,
+    "tiempoPreparacion": "10 minutos",
+    "porciones": 1,
+    "descripcion": "Un desayuno rápido, nutritivo y delicioso para empezar el día.",
+    "imagen": "https://plus.unsplash.com/premium_photo-1676106623583-e68dd66683e3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredientes": [
+      { "cantidad": 1, "unidad": "rebanada", "nombre": "Pan integral" },
+      { "cantidad": 0.5, "unidad": "unidad", "nombre": "Palta" },
+      { "cantidad": 1, "unidad": "unidad", "nombre": "Huevo" }
+    ],
+    "pasos": [
+      "Tostar el pan a gusto.",
+      "Pisar la palta con sal y limón.",
+      "Cocinar el huevo a la plancha y armar."
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Ensalada Mediterránea",
+    "categoria": "Almuerzo",
+    "dificultad": "Fácil",
+    "rating": 4.6,
+    "votes": 6,
+    "tiempoPreparacion": "15 minutos",
+    "porciones": 2,
+    "descripcion": "Una ensalada fresca con vegetales, aceitunas y queso feta.",
+    "imagen": "https://plus.unsplash.com/premium_photo-1676047258557-de72954cf17c?q=80&w=739&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredientes": [
+      { "cantidad": 1, "unidad": "taza", "nombre": "Lechuga" },
+      { "cantidad": 6, "unidad": "unidad", "nombre": "Tomates cherry" },
+      { "cantidad": 50, "unidad": "g", "nombre": "Queso feta" }
+    ],
+    "pasos": [
+      "Lavar y cortar los vegetales.",
+      "Mezclar en un bowl con aceite de oliva.",
+      "Agregar sal, pimienta y queso feta."
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Pollo al Curry con Arroz",
+    "categoria": "Cena",
+    "dificultad": "Media",
+    "rating": 4.2,
+    "votes": 2,
+    "tiempoPreparacion": "35 minutos",
+    "porciones": 3,
+    "descripcion": "Pollo aromático con leche de coco y curry.",
+    "imagen": "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg",
+    "ingredientes": [
+      { "cantidad": 300, "unidad": "g", "nombre": "Pechuga de pollo" },
+      { "cantidad": 1, "unidad": "taza", "nombre": "Arroz" },
+      { "cantidad": 200, "unidad": "ml", "nombre": "Leche de coco" }
+    ],
+    "pasos": [
+      "Dorar el pollo con curry.",
+      "Agregar leche de coco y cocinar.",
+      "Servir con arroz blanco."
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Pancakes Esponjosos",
+    "categoria": "Desayuno",
+    "dificultad": "Fácil",
+    "rating": 4.8,
+    "votes": 10,
+    "tiempoPreparacion": "25 minutos",
+    "porciones": 4,
+    "descripcion": "Pancakes suaves ideales para acompañar con miel o frutas.",
+    "imagen": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredientes": [
+      { "cantidad": 1, "unidad": "taza", "nombre": "Harina" },
+      { "cantidad": 1, "unidad": "unidad", "nombre": "Huevo" },
+      { "cantidad": 1, "unidad": "taza", "nombre": "Leche" }
+    ],
+    "pasos": [
+      "Mezclar ingredientes secos y húmedos.",
+      "Cocinar porciones en sartén.",
+      "Servir con miel y fruta."
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Sopa de Calabaza",
+    "categoria": "Cena",
+    "dificultad": "Fácil",
+    "rating": 4.5,
+    "votes": 8,
+    "tiempoPreparacion": "40 minutos",
+    "porciones": 4,
+    "descripcion": "Cremosa sopa de calabaza con un toque de jengibre.",
+    "imagen": "https://images.unsplash.com/photo-1604152135912-04a022e23696?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredientes": [
+      { "cantidad": 600, "unidad": "g", "nombre": "Calabaza" },
+      { "cantidad": 1, "unidad": "unidad", "nombre": "Cebolla" },
+      { "cantidad": 1, "unidad": "cda", "nombre": "Jengibre rallado" }
+    ],
+    "pasos": [
+      "Saltear cebolla y jengibre.",
+      "Agregar calabaza y agua.",
+      "Procesar hasta obtener crema."
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Tacos de Carne",
+    "categoria": "Almuerzo",
+    "dificultad": "Media",
+    "rating": 4.4,
+    "votes": 12,
+    "tiempoPreparacion": "30 minutos",
+    "porciones": 3,
+    "descripcion": "Tacos con carne sazonada, vegetales y salsa.",
+    "imagen": "https://images.pexels.com/photos/7613568/pexels-photo-7613568.jpeg",
+    "ingredientes": [
+      { "cantidad": 300, "unidad": "g", "nombre": "Carne picada" },
+      { "cantidad": 6, "unidad": "unidad", "nombre": "Tortillas" },
+      { "cantidad": 1, "unidad": "taza", "nombre": "Lechuga y tomate" }
+    ],
+    "pasos": [
+      "Cocinar carne con especias.",
+      "Calentar tortillas.",
+      "Armar tacos con vegetales."
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "Brownies de Chocolate",
+    "categoria": "Postre",
+    "dificultad": "Media",
+    "rating": 4.7,
+    "votes": 18,
+    "tiempoPreparacion": "50 minutos",
+    "porciones": 12,
+    "descripcion": "Brownies húmedos y chocolatosos.",
+    "imagen": "https://images.pexels.com/photos/887853/pexels-photo-887853.jpeg",
+    "ingredientes": [
+      { "cantidad": 200, "unidad": "g", "nombre": "Chocolate" },
+      { "cantidad": 150, "unidad": "g", "nombre": "Manteca" },
+      { "cantidad": 2, "unidad": "unidad", "nombre": "Huevos" }
+    ],
+    "pasos": [
+      "Fundir chocolate con manteca.",
+      "Mezclar con huevos y harina.",
+      "Hornear 25-30 minutos."
+    ]
+  },
+  {
+    "id": 8,
+    "titulo": "Wrap Veggie",
+    "categoria": "Merienda",
+    "dificultad": "Fácil",
+    "rating": 4.1,
+    "votes": 5,
+    "tiempoPreparacion": "15 minutos",
+    "porciones": 2,
+    "descripcion": "Wrap vegetariano con hummus y vegetales frescos.",
+    "imagen": "https://images.unsplash.com/photo-1585238342107-49a3cdace47f?q=80&w=767&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredientes": [
+      { "cantidad": 2, "unidad": "unidad", "nombre": "Tortillas" },
+      { "cantidad": 4, "unidad": "cda", "nombre": "Hummus" },
+      { "cantidad": 1, "unidad": "taza", "nombre": "Vegetales mixtos" }
+    ],
+    "pasos": [
+      "Untar hummus en tortillas.",
+      "Agregar vegetales.",
+      "Enrollar y cortar."
+    ]
+  },
+  {
+    "id": 9,
+    "titulo": "Limonada Fresca",
+    "categoria": "Bebidas",
+    "dificultad": "Fácil",
+    "rating": 4.0,
+    "votes": 9,
+    "tiempoPreparacion": "10 minutos",
+    "porciones": 4,
+    "descripcion": "Limonada natural con menta.",
+    "imagen": "https://images.pexels.com/photos/2109099/pexels-photo-2109099.jpeg",
+    "ingredientes": [
+      { "cantidad": 4, "unidad": "unidad", "nombre": "Limones" },
+      { "cantidad": 1, "unidad": "litro", "nombre": "Agua fría" },
+      { "cantidad": 3, "unidad": "cda", "nombre": "Azúcar" }
+    ],
+    "pasos": [
+      "Exprimir limones.",
+      "Mezclar con agua y azúcar.",
+      "Servir con menta y hielo."
+    ]
+  },
+  {
+    "id": 10,
+    "titulo": "Risotto de Hongos",
+    "categoria": "Cena",
+    "dificultad": "Difícil",
+    "rating": 4.3,
+    "votes": 7,
+    "tiempoPreparacion": "45 minutos",
+    "porciones": 3,
+    "descripcion": "Risotto cremoso con hongos salteados.",
+    "imagen": "https://plus.unsplash.com/premium_photo-1694850980439-61487c39be4f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredientes": [
+      { "cantidad": 1, "unidad": "taza", "nombre": "Arroz arborio" },
+      { "cantidad": 200, "unidad": "g", "nombre": "Hongos frescos" },
+      { "cantidad": 1, "unidad": "litro", "nombre": "Caldo" }
+    ],
+    "pasos": [
+      "Saltear hongos.",
+      "Agregar arroz y caldo de a poco.",
+      "Mover hasta cremosidad."
+    ]
+  },
+  {
+    "id": 11,
+    "titulo": "Ensalada César",
+    "categoria": "Almuerzo",
+    "dificultad": "Fácil",
+    "rating": 4.2,
+    "votes": 11,
+    "tiempoPreparacion": "20 minutos",
+    "porciones": 2,
+    "descripcion": "Clásica ensalada con aderezo casero.",
+    "imagen": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg",
+    "ingredientes": [
+      { "cantidad": 2, "unidad": "taza", "nombre": "Lechuga romana" },
+      { "cantidad": 50, "unidad": "g", "nombre": "Queso parmesano" },
+      { "cantidad": 1, "unidad": "taza", "nombre": "Croutons" }
+    ],
+    "pasos": [
+      "Preparar aderezo.",
+      "Mezclar con lechuga.",
+      "Agregar croutons y queso."
+    ]
+  },
+  {
+    "id": 12,
+    "titulo": "Empanadas de Carne",
+    "categoria": "Cena",
+    "dificultad": "Media",
+    "rating": 4.6,
+    "votes": 20,
+    "tiempoPreparacion": "60 minutos",
+    "porciones": 12,
+    "descripcion": "Empanadas horneadas con relleno jugoso.",
+    "imagen": "https://images.unsplash.com/photo-1624128082323-beb6b8b508db?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredientes": [
+      { "cantidad": 12, "unidad": "unidad", "nombre": "Tapas de empanada" },
+      { "cantidad": 400, "unidad": "g", "nombre": "Carne picada" },
+      { "cantidad": 1, "unidad": "unidad", "nombre": "Cebolla" }
+    ],
+    "pasos": [
+      "Preparar relleno.",
+      "Armar empanadas.",
+      "Hornear hasta dorar."
+    ]
+  },
+  {
+    "id": 13,
+    "titulo": "Smoothie de Frutos Rojos",
+    "categoria": "Bebidas",
+    "dificultad": "Fácil",
+    "rating": 4.1,
+    "votes": 6,
+    "tiempoPreparacion": "5 minutos",
+    "porciones": 2,
+    "descripcion": "Batido refrescante con frutos rojos.",
+    "imagen": "https://images.pexels.com/photos/990439/pexels-photo-990439.jpeg",
+    "ingredientes": [
+      { "cantidad": 1, "unidad": "taza", "nombre": "Frutos rojos" },
+      { "cantidad": 1, "unidad": "unidad", "nombre": "Banana" },
+      { "cantidad": 1, "unidad": "taza", "nombre": "Yogur" }
+    ],
+    "pasos": [
+      "Colocar todo en licuadora.",
+      "Procesar hasta suavidad.",
+      "Servir frío."
+    ]
+  },
+  {
+    "id": 14,
+    "titulo": "Pizza Margherita",
+    "categoria": "Cena",
+    "dificultad": "Media",
+    "rating": 4.5,
+    "votes": 16,
+    "tiempoPreparacion": "90 minutos",
+    "porciones": 8,
+    "descripcion": "Pizza clásica con tomate, mozzarella y albahaca.",
+    "imagen": "https://plus.unsplash.com/premium_photo-1667682942148-a0c98d1d70db?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredientes": [
+      { "cantidad": 300, "unidad": "g", "nombre": "Harina" },
+      { "cantidad": 200, "unidad": "g", "nombre": "Mozzarella" },
+      { "cantidad": 200, "unidad": "g", "nombre": "Tomate triturado" }
+    ],
+    "pasos": [
+      "Amasar y leudar.",
+      "Agregar salsa y queso.",
+      "Hornear a alta temperatura."
+    ]
+  },
+  {
+    "id": 15,
+    "titulo": "Galletas de Avena",
+    "categoria": "Merienda",
+    "dificultad": "Fácil",
+    "rating": 4.3,
+    "votes": 9,
+    "tiempoPreparacion": "30 minutos",
+    "porciones": 20,
+    "descripcion": "Galletas crujientes con avena y pasas.",
+    "imagen": "https://images.unsplash.com/photo-1645258751218-1a1ddb1630dc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredientes": [
+      { "cantidad": 2, "unidad": "taza", "nombre": "Avena" },
+      { "cantidad": 1, "unidad": "taza", "nombre": "Harina" },
+      { "cantidad": 100, "unidad": "g", "nombre": "Manteca" }
+    ],
+    "pasos": [
+      "Mezclar ingredientes.",
+      "Formar bolitas.",
+      "Hornear 12-15 minutos."
+    ]
+  }
+  ,
+  {
+    "id": 16,
+    "titulo": "Sopa de Zanahoria",
+    "categoria": "Cena",
+    "dificultad": "Fácil",
+    "rating": 4.2,
+    "votes": 7,
+    "tiempoPreparacion": "35 minutos",
+    "porciones": 4,
+    "descripcion": "Sopa cremosa de zanahoria con un toque de comino.",
+    "imagen": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?q=80&w=1200&auto=format&fit=crop",
+    "ingredientes": [
+      { "cantidad": 500, "unidad": "g", "nombre": "Zanahoria" },
+      { "cantidad": 1, "unidad": "unidad", "nombre": "Cebolla" },
+      { "cantidad": 1, "unidad": "cdita", "nombre": "Comino" }
+    ],
+    "pasos": [
+      "Saltear cebolla.",
+      "Agregar zanahorias y agua.",
+      "Procesar y condimentar."
+    ]
+  },
+  {
+    "id": 17,
+    "titulo": "Budín de Limón",
+    "categoria": "Postre",
+    "dificultad": "Media",
+    "rating": 4.4,
+    "votes": 14,
+    "tiempoPreparacion": "55 minutos",
+    "porciones": 10,
+    "descripcion": "Budín húmedo con ralladura y glaseado de limón.",
+    "imagen": "https://images.unsplash.com/photo-1691242720281-9269de4d9f86?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredientes": [
+      { "cantidad": 200, "unidad": "g", "nombre": "Harina" },
+      { "cantidad": 2, "unidad": "unidad", "nombre": "Huevos" },
+      { "cantidad": 1, "unidad": "unidad", "nombre": "Limón" }
+    ],
+    "pasos": [
+      "Mezclar secos y húmedos.",
+      "Hornear hasta dorar.",
+      "Glasear y dejar enfriar."
+    ]
+  },
+  {
+    "id": 18,
+    "titulo": "Bruschettas Clásicas",
+    "categoria": "Aperitivo",
+    "dificultad": "Fácil",
+    "rating": 4.3,
+    "votes": 10,
+    "tiempoPreparacion": "15 minutos",
+    "porciones": 6,
+    "descripcion": "Pan tostado con tomate, ajo y albahaca fresca.",
+    "imagen": "https://plus.unsplash.com/premium_photo-1677686707100-dc49e6526c5a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredientes": [
+      { "cantidad": 6, "unidad": "rebanadas", "nombre": "Pan" },
+      { "cantidad": 3, "unidad": "unidad", "nombre": "Tomates" },
+      { "cantidad": 1, "unidad": "diente", "nombre": "Ajo" }
+    ],
+    "pasos": [
+      "Tostar pan.",
+      "Mezclar tomate con ajo y albahaca.",
+      "Servir sobre el pan."
+    ]
+  }
+]

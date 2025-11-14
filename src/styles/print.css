@@ -1,0 +1,43 @@
+/* Print-optimized styling to fit one A4 page per recipe */
+@page {
+  size: A4;
+  margin: 12mm;
+}
+
+@media print {
+  /* Hide global chrome and interactive UI */
+  nav, header, footer,
+  .MuiAppBar-root, .MuiToolbar-root,
+  .MuiButton-root, .MuiIconButton-root,
+  .no-print { display: none !important; }
+
+  /* Reset layout */
+  html, body { background: #fff !important; }
+  body { font-size: 12px; line-height: 1.35; color: #000; }
+  main, .print-area, .MuiContainer-root { width: 100% !important; margin: 0 !important; padding: 0 !important; }
+  .MuiPaper-root { padding: 8px !important; box-shadow: none !important; background: #fff !important; border: none !important; }
+
+  /* Headings compact */
+  .MuiTypography-h3 { font-size: 20px !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; }
+  .MuiTypography-h5 { font-size: 16px !important; margin: 8px 0 !important; }
+  .MuiTypography-body1, .MuiTypography-body2 { font-size: 12px !important; }
+
+  /* Info chips/decoration off */
+  .MuiChip-root, .MuiDivider-root { display: none !important; }
+
+  /* Lists condensed */
+  .ingredients-list, .steps-list { background: transparent !important; padding: 0 !important; margin: 8px 0 !important; }
+  .ingredient-item, .step-item {
+    page-break-inside: avoid; break-inside: avoid;
+    padding: 4px 0 !important; margin: 0 !important; border: none !important; background: transparent !important;
+  }
+  .ingredient-item .MuiListItemIcon-root, .step-item .MuiListItemIcon-root { display: none !important; }
+  .ingredient-item .MuiListItemText-primary { font-weight: 600 !important; }
+
+  /* Images: already hidden with .no-print in detalle; ensure any accidental images are small */
+  img { max-height: 120px !important; width: auto !important; }
+
+  /* Avoid unexpected breaks */
+  h1, h2, h3, h4, h5, h6, p, ul, ol, li { page-break-inside: avoid; break-inside: avoid; }
+  .print-one-page { page-break-after: always; }
+}
