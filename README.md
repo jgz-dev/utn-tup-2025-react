@@ -37,3 +37,14 @@ src/
 - Context API: recetas, filtros, orden, paginación, favoritos, ratings
 - Datos locales en `src/data/recetas.json` (18 recetas)
 - Extras: buscador, filtros (categoría/dificultad), favoritos (localStorage), compartir enlace, calificaciones con baseline, modal de receta, dark mode, animaciones, estilos de impresión
+<<<<<<< HEAD
+=======
+
+## Checklist rápido
+- npm run dev sin errores: OK
+- Rutas funcionales: OK
+- JSON con 6+ recetas: OK (18)
+- Diseño responsive y uso de MUI: OK
+- Context API en uso: OK
+- Página 404 y manejo "receta no encontrada": OK
+>>>>>>> c6a58b7 (mejoras generales)

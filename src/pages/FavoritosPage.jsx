@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useCallback } from 'react';
 import { Container, Typography, Box, useTheme, Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
@@ -10,16 +10,23 @@ const FavoritosPage = () => {
     const navigate = useNavigate();
     const { allRecetas, isFavorite, searchTerm, setSearchTerm, setSelectedCategory, setSelectedDifficulty, setCurrentPage } = useRecetas();
 
+    const normalize = useCallback((str) => (str || '')
+        .toString()
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, ''), []);
+
     // Filtrar solo las recetas favoritas de TODAS las recetas
     const favoritRecetas = useMemo(() => {
         const base = allRecetas.filter(receta => isFavorite(receta.id));
-        const term = (searchTerm || '').trim().toLowerCase();
-        if (!term) return base;
-        return base.filter(r =>
-            r.titulo.toLowerCase().includes(term) ||
-            (r.categoria || '').toLowerCase().includes(term)
-        );
-    }, [allRecetas, isFavorite, searchTerm]);
+        const q = normalize(searchTerm).trim();
+        if (!q) return base;
+        return base.filter(r => {
+            const title = normalize(r.titulo);
+            const words = title.split(/[^a-z0-9ñü]+/);
+            return words.some(w => w.startsWith(q));
+        });
+    }, [allRecetas, isFavorite, searchTerm, normalize]);
 
     return (
         <>

@@ -205,6 +205,13 @@ export const RecetasProvider = ({ children }) => {
         return ['Todas', ...new Set(allDifficulties)];
     }, []);
 
+    // Utilidad: normalizar cadenas (minúsculas y sin acentos)
+    const normalize = useCallback((str) => (str || '')
+        .toString()
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, ''), []);
+
     // ===== OPTIMIZACIÓN: Filtrado en pasos separados para mejor rendimiento =====
     const filteredRecetas = useMemo(() => {
         let tempRecetas = recetas;
@@ -218,10 +225,14 @@ export const RecetasProvider = ({ children }) => {
         }
 
         if (searchTerm) {
-            const searchLower = searchTerm.toLowerCase();
-            tempRecetas = tempRecetas.filter(receta =>
-                receta.titulo.toLowerCase().includes(searchLower)
-            );
+            const q = normalize(searchTerm).trim();
+            if (q) {
+                tempRecetas = tempRecetas.filter(receta => {
+                    const title = normalize(receta.titulo);
+                    const words = title.split(/[^a-z0-9ñü]+/);
+                    return words.some(w => w.startsWith(q));
+                });
+            }
         }
 
         // Ordenamiento

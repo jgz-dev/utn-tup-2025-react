@@ -19,7 +19,7 @@ const PasosList = ({ pasos = [] }) => {
         {pasos.map((paso, index) => (
           <ListItem
             key={index}
-            alignItems="flex-start"
+            alignItems="center"
             sx={{
               py: 2,
               px: 0,
@@ -32,7 +32,7 @@ const PasosList = ({ pasos = [] }) => {
             }}
             className="step-item"
           >
-            <ListItemIcon sx={{ minWidth: 40, mt: 0.5 }}>
+            <ListItemIcon sx={{ minWidth: 40 }}>
               <Box
                 sx={{
                   display: 'flex',

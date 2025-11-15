@@ -104,11 +104,18 @@ export default function Navbar() {
                 }}
                 sx={{
                   '& .MuiOutlinedInput-root': {
-                    bgcolor: (theme) => theme.palette.mode === 'dark' ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.04)',
+                    bgcolor: (theme) => theme.palette.mode === 'dark' ? 'rgba(255,255,255,0.08)' : '#ffffff',
+                    color: (theme) => theme.palette.mode === 'dark' ? '#e2e8f0' : '#1a202c',
                     borderRadius: 1,
-                    '& fieldset': { borderColor: (theme) => theme.palette.mode === 'dark' ? '#4a5568' : '#cbd5e1' },
+                    '& input::placeholder': {
+                      color: (theme) => theme.palette.mode === 'dark' ? 'rgba(226,232,240,0.8)' : 'rgba(26,32,44,0.8)',
+                      opacity: 1,
+                    },
+                    '& fieldset': {
+                      borderColor: (theme) => theme.palette.mode === 'dark' ? '#4a5568' : '#4a5568',
+                    },
                     '&:hover fieldset': { borderColor: '#667eea' },
-                    '&.Mui-focused fieldset': { borderColor: '#667eea' },
+                    '&.Mui-focused fieldset': { borderColor: '#667eea', borderWidth: 2 },
                   },
                 }}
               />
@@ -183,6 +190,7 @@ export default function Navbar() {
             anchorOrigin={{ vertical: "top", horizontal: "right" }}
             transformOrigin={{ vertical: "top", horizontal: "right" }}
             keepMounted
+            MenuListProps={{ autoFocusItem: false }}
           >
             {showSearch && (
               <MenuItem disableRipple sx={{ px: 2, py: 1.5 }}>
@@ -202,14 +210,19 @@ export default function Navbar() {
                   }}
                   sx={{
                     '& .MuiOutlinedInput-root': {
-                      bgcolor: (theme) => theme.palette.mode === 'dark' ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.04)',
+                      bgcolor: (theme) => theme.palette.mode === 'dark' ? 'rgba(255,255,255,0.08)' : '#ffffff',
+                      color: (theme) => theme.palette.mode === 'dark' ? '#e2e8f0' : '#1a202c',
                       borderRadius: 1,
-                      '& fieldset': { borderColor: (theme) => theme.palette.mode === 'dark' ? '#4a5568' : '#cbd5e1' },
+                      '& input::placeholder': {
+                        color: (theme) => theme.palette.mode === 'dark' ? 'rgba(226,232,240,0.8)' : 'rgba(26,32,44,0.8)',
+                        opacity: 1,
+                      },
+                      '& fieldset': { borderColor: (theme) => theme.palette.mode === 'dark' ? '#4a5568' : '#4a5568' },
                       '&:hover fieldset': { borderColor: '#667eea' },
-                      '&.Mui-focused fieldset': { borderColor: '#667eea' },
+                      '&.Mui-focused fieldset': { borderColor: '#667eea', borderWidth: 2 },
                     },
                   }}
-                  onKeyDown={(e) => { if (e.key === 'Enter') { handleCloseMenu(); if (location.pathname !== '/recetas' && location.pathname !== '/favoritos') { navigate('/recetas'); } } }}
+                  onKeyDown={(e) => { e.stopPropagation(); if (e.key === 'Enter') { handleCloseMenu(); if (location.pathname !== '/recetas' && location.pathname !== '/favoritos') { navigate('/recetas'); } } }}
                 />
               </MenuItem>
             )}
