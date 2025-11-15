@@ -36,9 +36,7 @@ src/
 - Navegación con rutas: `/`, `/recetas`, `/recetas/:id`, `/favoritos`, `/acerca-de`, `*` (404)
 - Context API: recetas, filtros, orden, paginación, favoritos, ratings
 - Datos locales en `src/data/recetas.json` (18 recetas)
-- Extras: buscador, filtros (categoría/dificultad), favoritos (localStorage), compartir enlace, calificaciones con baseline, modal de receta, dark mode, animaciones, estilos de impresión
-<<<<<<< HEAD
-=======
+ Extras: buscador, filtros (categoría/dificultad), favoritos (localStorage), compartir enlace, calificaciones con baseline, modal de receta, dark mode, animaciones, estilos de impresión
 
 ## Checklist rápido
 - npm run dev sin errores: OK
